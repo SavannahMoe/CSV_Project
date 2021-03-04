@@ -34,8 +34,8 @@ for row in csv_file:
     except ValueError:
         print(f"Missing data for {converted_date}")
     else:
-        highs.append(int(row[4]))
-        lows.append(int(row[5]))
+        highs.append(high)
+        lows.append(low)
         dates.append(converted_date)
 
 
